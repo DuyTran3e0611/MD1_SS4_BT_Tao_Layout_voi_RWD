@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #e7e7e7;
+        }
+
+        .container {
+            width: 900px;
+            height: 850px;
+            background-color: lightpink;
+            margin: 0 auto;
+        }
+
+        .heading{
+            margin: 0;
+        }
+
+        .header {
+            background-color: black;
+            color: white;
+            height: 25px;
+            padding: 6px 40px;
+            vertical-align: center;
+        }
+
+        .nav {
+            height: 150px;
+            background-color: white;
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .wrapper {
+            background-color: #f3f0f0;
+            display: flex;
+            flex-direction: row;
+            height: 575px;
+            width: 850px;
+            flex-wrap: wrap;
+            padding: 25px;
+            gap: 20px 20px;
+        }
+
+        .content {
+            width: 270px;
+            height: 280px;
+            background-color: white;
+        }
+
+        .content-1 {
+            height: 150px;
+            background-color: grey;
+            text-align: center;
+            line-height: 150px;
+        }
+
+        .content-2 {
+            padding: 12px;
+        }
+
+        .p {
+            margin: 0 0 10px 0;
+        }
+
+        .button {
+            background-color: grey;
+            color: white;
+            height: 30px;
+            width: 130px;
+            border: none;
+        }
+        .table{
+            width: 100%;
+        }
+        .td-1{
+            text-align: left;
+        }
+        .td-2{
+            text-align: right;
+        }
+
+        .button:focus {
+            background-color: #15a4ee;
+        }
+        @media only screen and (max-width: 600px)
+        {
+            .container{
+                width: 85%;
+                background-color:yellow ;
+            }
+
+            .wrapper{
+                width: 89.5%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .content{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h3 class="heading">Album</h3>
+    </div>
+
+    <div class="nav">
+        <h2 class="heading">Album example</h2>
+        <p>Something short and leading about the collection below - its contents the creator, etc. Make it short and
+            sweet, but not too short so folks don't simply skip over it entirely</p>
+        <input class="button" type="button" name="main" value="Main call to action"> <input class="button" type="button"
+                                                                                            name="Secondary"
+                                                                                            value="Secondary action">
+    </div>
+
+    <div class="wrapper">
+        <!--        Khối 1 trong khung 6 khối-->
+        <div class="content">
+            <div class="content-1">
+                <h2 class="heading">Thumbnail</h2>
+            </div>
+            <div class="content-2">
+                <p class="p">This is a wider card with supporting text below as a natural lead-in to additional content.
+                    this
+                    content
+                    is a little bit longer.</p>
+                <table class="table">
+                    <tr>
+                        <td class="td-1"><input type="button" name="View" value="View"> <input type="button" name="Edit" value="Edit"></td>
+                        <td class="td-2"><a>9 min</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--        Khối 2 trong khung 6 khối-->
+        <div class="content">
+            <div class="content-1">
+                <h2 class="heading">Thumbnail</h2>
+            </div>
+            <div class="content-2">
+                <p class="p">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. this
+                    content
+                    is a little bit longer.</p>
+                <table class="table">
+                    <tr>
+                        <td class="td-1"><input type="button" name="View" value="View"> <input type="button" name="Edit" value="Edit"></td>
+                        <td class="td-2"><a>9 min</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--        Khối 3 trong khung 6 khối-->
+        <div class="content">
+            <div class="content-1">
+                <h2 class="heading">Thumbnail</h2>
+            </div>
+            <div class="content-2">
+                <p class="p">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. this
+                    content
+                    is a little bit longer.</p>
+                <table class="table">
+                    <tr>
+                        <td class="td-1"><input type="button" name="View" value="View"> <input type="button" name="Edit" value="Edit"></td>
+                        <td class="td-2"><a>9 min</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--        Khối 4 trong khung 6 khối-->
+        <div class="content">
+            <div class="content-1">
+                <h2 class="heading">Thumbnail</h2>
+            </div>
+            <div class="content-2">
+                <p class="p">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. this
+                    content
+                    is a little bit longer.</p>
+                <table class="table">
+                    <tr>
+                        <td class="td-1"><input type="button" name="View" value="View"> <input type="button" name="Edit" value="Edit"></td>
+                        <td class="td-2"><a>9 min</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--        Khối 5 trong khung 6 khối-->
+        <div class="content">
+            <div class="content-1">
+                <h2 class="heading">Thumbnail</h2>
+            </div>
+            <div class="content-2">
+                <p class="p">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. this
+                    content
+                    is a little bit longer.</p>
+                <table class="table">
+                    <tr>
+                        <td class="td-1"><input type="button" name="View" value="View"> <input type="button" name="Edit" value="Edit"></td>
+                        <td class="td-2"><a>9 min</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--        Khối 6 trong khung 6 khối-->
+        <div class="content">
+            <div class="content-1">
+                <h2 class="heading">Thumbnail</h2>
+            </div>
+            <div class="content-2">
+                <p class="p">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. this
+                    content
+                    is a little bit longer.</p>
+                <table class="table">
+                    <tr>
+                        <td class="td-1"><input type="button" name="View" value="View"> <input type="button" name="Edit" value="Edit"></td>
+                        <td class="td-2"><a>9 min</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+<!--<header>-->
+<!--    <b>Album</b>-->
+<!--</header>-->
+<!--<nav>-->
+<!--    <h2>Album example</h2>-->
+<!--    <p>Something short and leading about the collection below - its contents the creator, etc. Make it short and-->
+<!--        sweet, but not too short so folks don't simply skip over it entirely</p>-->
+<!--    <input type="button" name="main" value="Main call to action"> <input type="button" name="Secondary"-->
+<!--                                                                         value="Secondary action">-->
+<!--</nav>-->
+<!--<div class="container">-->
+<!--    <div class="child">-->
+<!--        <div class="child_1">-->
+<!--            <h2>Thumbnail</h2>-->
+<!--        </div>-->
+<!--<div class="child_2">-->
+<!--    <p>This is a wider card with supporting text below as a natural lead-in to additional content. this content-->
+<!--        is a little bit longer.</p>-->
+<!--    <input type="button" name="View" value="View"> <input type="button" name="Edit" value="Edit">-->
+<!--</div>-->
+<!--    </div>-->
+
+<!--    <div class="child">-->
+<!--        <div class="child_1">-->
+<!--            <h2>Thumbnail</h2>-->
+<!--        </div>-->
+<!--        <div class="child_2">-->
+<!--            <p>This is a wider card with supporting text below as a natural lead-in to additional content. this content-->
+<!--                is a little bit longer.</p>-->
+<!--            <input type="button" name="View" value="View"> <input type="button" name="Edit" value="Edit">-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="child">-->
+<!--        <div class="child_1">-->
+<!--            <h2>Thumbnail</h2>-->
+<!--        </div>-->
+<!--        <div class="child_2">-->
+<!--            <p>This is a wider card with supporting text below as a natural lead-in to additional content. this content-->
+<!--                is a little bit longer.</p>-->
+<!--            <input type="button" name="View" value="View"> <input type="button" name="Edit" value="Edit">-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="child">-->
+<!--        <div class="child_1">-->
+<!--            <h2>Thumbnail</h2>-->
+<!--        </div>-->
+<!--        <div class="child_2">-->
+<!--            <p>This is a wider card with supporting text below as a natural lead-in to additional content. this content-->
+<!--                is a little bit longer.</p>-->
+<!--            <input type="button" name="View" value="View"> <input type="button" name="Edit" value="Edit">-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="child">-->
+<!--        <div class="child_1">-->
+<!--            <h2>Thumbnail</h2>-->
+<!--        </div>-->
+<!--        <div class="child_2">-->
+<!--            <p>This is a wider card with supporting text below as a natural lead-in to additional content. this content-->
+<!--                is a little bit longer.</p>-->
+<!--            <input type="button" name="View" value="View"> <input type="button" name="Edit" value="Edit">-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="child">-->
+<!--        <div class="child_1">-->
+<!--            <h2>Thumbnail</h2>-->
+<!--        </div>-->
+<!--        <div class="child_2">-->
+<!--            <p>This is a wider card with supporting text below as a natural lead-in to additional content. this content-->
+<!--                is a little bit longer.</p>-->
+<!--            <input type="button" name="View" value="View"> <input type="button" name="Edit" value="Edit">-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+<!--</div>-->
+
+</body>
+</html>
